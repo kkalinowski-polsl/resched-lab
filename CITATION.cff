@@ -1,0 +1,43 @@
+cff-version: 1.2.0
+message: "If you use this software or data, please cite the archived version below and the related article."
+type: software
+title: "resched_lab: closed-loop workbench, data and results for a two-stage fuzzy decision layer for rescheduling in digital-twin-enabled production systems"
+version: 1.0.0
+date-released: 2026-09-29
+license: MIT
+authors:
+  - family-names: Kalinowski
+    given-names: Krzysztof
+    orcid: "https://orcid.org/0000-0001-7601-2575"
+    affiliation: "Silesian University of Technology, Faculty of Mechanical Engineering, Department of Engineering Processes Automation and Integrated Manufacturing Systems, Gliwice, Poland"
+    email: krzysztof.kalinowski@polsl.pl
+abstract: >-
+  Python workbench (OR-Tools CP-SAT) for evaluating rescheduling policies in
+  closed loop with a digital-twin emulator: a two-stage fuzzy decision layer
+  (whether to act: IGNORE/DEFER/RESCHEDULE; how: right shift, match-up, full
+  rescheduling) with decision features computed from digital-twin projections,
+  benchmark policies (fixed, threshold, myopic oracle), an illustrative job shop
+  and an automated gear-wheel line with 624 operations. Includes input data,
+  cached baseline schedules, raw simulation results and verification tests.
+keywords:
+  - rescheduling
+  - digital twin
+  - fuzzy logic
+  - predictive-reactive scheduling
+  - constraint programming
+  - production planning
+references:
+  - type: article
+    authors:
+      - family-names: Kampa
+        given-names: A.
+      - family-names: Kalinowski
+        given-names: K.
+      - name: "et al."
+    title: "Digital Twin Methodology for Flexible Manufacturing System Design: Integration of VSM, Discrete-Event Simulation and Production Scheduling for Gear Wheel Production"
+    journal: "Applied Sciences"
+    volume: 16
+    issue: 15
+    start: 7521
+    year: 2026
+    doi: 10.3390/app16157521
