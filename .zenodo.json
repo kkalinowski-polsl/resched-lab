@@ -1,0 +1,20 @@
+{
+  "title": "resched_lab v1.0.0: closed-loop workbench, data and results for a two-stage fuzzy decision layer for rescheduling in digital-twin-enabled production systems",
+  "upload_type": "software",
+  "description": "<p>Python workbench (OR-Tools CP-SAT) for evaluating rescheduling policies in closed loop with a digital-twin emulator of the shop floor, with the input data, cached baseline schedules and raw simulation results of the study.</p><p>A two-stage fuzzy decision layer decides whether to act (IGNORE / DEFER / RESCHEDULE) and how to reschedule (right shift, match-up, full rescheduling; priority rule for threatened hard due dates), based on decision features computed from digital-twin projections of the current plan. Benchmark policies: STATIC, ALWAYS-RS/MU/FR, threshold policy CRISP, myopic ORACLE; ablation variants FUZZY, FUZZY-A, FUZZY-B, FUZZY-AB. Cases: illustrative job shop (5 machines, 10 jobs) and an automated gear-wheel line with 624 operations (data from Kampa et al. 2026, Applied Sciences 16(15):7521, CC BY 4.0).</p><p>Contents: package resched_lab, 14 verification tests, data, baseline schedules (cache), results e1_pc.csv, e2_main.csv, e2_gamma.csv, run scripts. Code: MIT licence; data and results: CC BY 4.0.</p><p>Related article: K. Kalinowski, 'A two-stage fuzzy decision layer for rescheduling in digital-twin-enabled production systems', submitted to the International Journal of Production Research (2026).</p>",
+  "creators": [
+    {
+      "name": "Kalinowski, Krzysztof",
+      "affiliation": "Silesian University of Technology, Faculty of Mechanical Engineering, Department of Engineering Processes Automation and Integrated Manufacturing Systems",
+      "orcid": "0000-0001-7601-2575"
+    }
+  ],
+  "license": "mit",
+  "access_right": "open",
+  "version": "1.0.0",
+  "language": "eng",
+  "keywords": ["rescheduling", "digital twin", "fuzzy logic", "predictive-reactive scheduling", "constraint programming", "production planning", "simulation"],
+  "related_identifiers": [
+    {"identifier": "10.3390/app16157521", "relation": "isDerivedFrom", "resource_type": "publication-article", "scheme": "doi"}
+  ]
+}
